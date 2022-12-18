@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+authors = [
+  { name="Ugur Sahin", email="s.ugursahin@gmail.com"},
+]
+
+[project]
+name = "hfspaces_api"
+description = "API calls for Huggingface spaces"
+readme = "README.md"
+requires-python = ">=3.8"
+version = "0.1"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
